@@ -21,9 +21,13 @@ Para iniciar o servidor Express, use o comando:
 
 ## Rotas de Testes
 - Login para gerar o TOKEN de autenticação usando o Postman:
+```
   POST: localhost:3000/login
+```
 
 - Rota para gerar o desbloqueio da session:
+```
   GET: localhost:3000/protected
   Passar na aba 'Headers' => "Authorization"
   Adicionar no value "Bearer TOKEN_GERADO"
+```
