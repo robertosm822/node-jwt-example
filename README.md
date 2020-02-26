@@ -1,4 +1,5 @@
-# node-jwt-example## Instalar dependências
+# node-jwt-example
+## Instalar dependências
 ```
     npm install
 ```
@@ -22,6 +23,7 @@ Para iniciar o servidor Express, use o comando:
 ## Rotas de Testes
 - Login para gerar o TOKEN de autenticação usando o Postman:
 ```
+  username: admin / password: 123456
   POST: localhost:3000/login
 ```
 
